@@ -32,7 +32,7 @@ This is a TypeScript-based project that demonstrates the usage of `main.ts` and 
 1. Run the application:
 
    ```bash
-   node dist/main.js
+   node main.js
    ```
 
 2. The application will allow you to manage tasks using the `todo.ts` module.
