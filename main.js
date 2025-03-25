@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const todo_1 = require("./todo");
+const todo = new todo_1.TodoList();
+todo.add((0, todo_1.createTask)(1, "Wake Up"));
+todo.add((0, todo_1.createTask)(2, "Do Shopping"));
+todo.add((0, todo_1.createTask)(3, "Fix Codding"));
+console.log("Initial List ", todo.getAll());
+todo.complete(1);
+console.log("After Complete ", todo.getAll());
+todo.remove(2);
+console.log("After Remove ", todo.getAll());
